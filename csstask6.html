@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Image hover effect */
+.hover-image {
+    border: 5px solid #ccc;
+    transition: 0.3s ease-in-out;
+     width: 100px;
+}
+.hover-image:hover {
+    width: 200px;
+    border-color: #0099ff;
+}
+
+ 
+.styled-link {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.styled-link:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+ 
+.styled-list {
+    list-style-type: square;
+    padding: 0;
+}
+.styled-list li {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.styled-list li:nth-child(odd) {
+    background-color: #f9f9f9;
+    color: #333;
+}
+.styled-list li:nth-child(even) {
+    background-color: #e0e0e0;
+    color: #222;
+    font-style: italic;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Image with hover effect -->
+<div style="margin: 20px;">
+    <h3>Image Hover Color Change</h3>
+    <img src="gs.jpg" class="hover-image" alt="Hover Me">
+</div>
+
+<!-- Styled links -->
+<div style="margin: 20px;">
+    <h3>Useful Links</h3>
+    <a href="https://example.com" class="styled-link">Example</a><br>
+    <a href="https://openai.com" class="styled-link">OpenAI</a>
+</div>
+
+<!-- Alternate list styling -->
+<div style="margin: 20px;">
+    <h3>Styled List</h3>
+    <ul class="styled-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+    </ul>
+</div>
+
+</body>
+</html>
